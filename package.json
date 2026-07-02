@@ -2,10 +2,13 @@
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
+  "homepage":"https://ENRIQUE2002-Chinyoka.github.io/EnhanceResponsiveWebsite"
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
